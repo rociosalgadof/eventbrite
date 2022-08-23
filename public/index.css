@@ -1,0 +1,709 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+.global--div {
+  height: 100vh;
+}
+
+.eventbrite--logo--links {
+  height: 72px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.eventbrite--logo {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #f05537;
+  font-size: 25px;
+  /* line-height: 80px; */
+  font-weight: 900;
+}
+
+.eventbrite--input {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.eventbrite--links {
+  color: #39364f;
+  font-weight: bold;
+  font-size: 13px;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+}
+
+.eventbrite--link--1,
+.eventbrite--link--2,
+.eventbrite--link--3 {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.eventbrite--link--1 {
+  color: #3659e3;
+}
+
+.eventbrite--link--1:hover,
+.eventbrite--link--2:hover,
+.eventbrite--link--3:hover {
+  background: #f8f7fa;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.eventbrite--input--img {
+  height: 35%;
+  /* fill: #39364f; */
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .eventbrite--link--1 {
+    display: none;
+  }
+  .logo {
+    padding-left: 50px;
+  }
+  .eventbrite--link--2 {
+    margin-left: 50px;
+  }
+  .eventbrite--input--img {
+    display: block;
+  }
+}
+
+@media (max-width: 662px) {
+}
+
+.eventbrite--banner {
+  width: 80%;
+  height: 73px;
+  box-shadow: 0 4px 12px -4px rgb(46 55 77 / 12%);
+  padding: 14px 24px;
+  border-radius: 4px;
+  margin: auto 12px 20px;
+  border-left: 4px solid #f05537;
+  background-color: #fff;
+}
+.eventbrite--section--1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #39364f;
+}
+
+.eventbrite--banner--text {
+  margin-bottom: 8px;
+}
+
+.eventbrite--banner--text {
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.eventbrite--a {
+  color: #3659e3;
+  text-decoration: underline;
+}
+
+.eventbrite--section--2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+.eventbrite--section--2--badge--div {
+  position: relative;
+  height: 372px;
+  background-color: grey;
+  width: 43%;
+}
+
+.eventbrite--section--2--img {
+  height: 100%;
+  width: 100%;
+}
+
+.eventbrite--section--2--badge {
+  position: absolute;
+  text-align: center;
+  width: 42%;
+  height: 36px;
+  bottom: 23px;
+  left: 55%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  border-radius: 18px;
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 10px;
+}
+
+.eventbrite--section--2--div {
+  position: relative;
+  width: 30%;
+  background-color: #f6f7fd;
+  height: 292px;
+  margin-left: 20px;
+}
+
+.eventbrite--section--2--container {
+  position: absolute;
+  left: -40px;
+  bottom: 35%;
+}
+
+.eventbrite--section--2--text--1 {
+  color: #f05537;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.eventbrite--section--2--text--2 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.eventbrite--section--3-titles--1 {
+  width: 30%;
+  font-size: 30px;
+  font-weight: 800;
+  color: #39364f;
+}
+
+.eventbrite--section--3-titles--2 {
+  font-size: 30px;
+  color: #3659e3;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+.eventbrite--titles--active {
+  border-bottom: 2px solid #dbdae3;
+}
+
+.eventbrite--section--3 {
+  padding-left: 12%;
+  padding-top: 16px;
+  padding-bottom: 2%;
+}
+
+.eventbrite--section--3--img {
+  height: 30px;
+}
+
+.eventbrite--section--4 {
+  color: #6f7287;
+  padding-left: 12%;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.eventbrite--section--4--a {
+  padding-right: 3%;
+}
+
+.eventbrite--section--4--a:hover {
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  cursor: pointer;
+}
+
+.active {
+  text-decoration: underline;
+  text-underline-offset: 12px;
+}
+
+.eventbrite--section--4--img {
+  width: 100%;
+  height: 145px;
+}
+
+.eventbrite--section--4--h3 {
+  padding-bottom: 24px;
+}
+
+.eventbrite--section--4--card--empty,
+.eventbrite--section--4--card {
+  width: 290px;
+  margin-top: 32px;
+  margin-right: 16px;
+  height: 397px;
+}
+
+.eventbrite--section--4--card {
+  box-shadow: rgba(50, 50, 93, 0.09) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.01) 0px 30px 60px -30px;
+}
+
+.eventbrite--section--4--card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.eventbrite--section--4--down--h1 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #39364f;
+}
+
+.eventbrite--section--4--down {
+  padding: 24px 16px;
+}
+
+.eventbrite--section--4--down--h2 {
+  color: #f05537;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  font-size: 14px;
+}
+
+.eventbrite--section--4--down--p1,
+.eventbrite--section--4--down--p2 {
+  color: #6f7287;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20%;
+  flex-flow: wrap;
+}
+
+.eventbrite--footer--up {
+  height: 370px;
+  background-color: #1e0a3c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 24px;
+}
+
+.eventbrite--footer--up--col {
+  width: 246px;
+  padding-top: 16px;
+  padding-left: 24px;
+}
+
+.eventbrite--footer--up--a {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #dbdae3;
+}
+
+.eventbrite--footer--up--title {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #dbdae3;
+  font-size: 1.17em;
+}
+
+.eventbrite--footer--down {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 76px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #dbdae3;
+  background-color: #1e0a3c;
+}
+
+.eventbrite--footer--down--col--2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* body {
+      font-family: "Roboto", sans-serif;
+      background-color: #eeedf2;
+    } */
+
+.eventbrite--card--img {
+  height: 66vh;
+  width: 100%;
+  filter: blur(8px);
+}
+
+.eventbrite--card--relative {
+  height: 1100px;
+  position: relative;
+}
+
+.eventbrite--card {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  height: fit-content;
+  width: 1080px;
+}
+
+.eventbrite--card--div--1 {
+  height: 360px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.eventbrite--card--div--1--left {
+  width: 65%;
+  height: 360px;
+  border-top-left-radius: 4px;
+}
+
+.eventbrite--card--div--1--right {
+  width: 35%;
+  height: 100%;
+  background-color: #eeedf2;
+  border-top-right-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.eventbrite--card--div--2 {
+  width: 100%;
+  height: 66px;
+  background-color: white;
+  border-bottom: solid 1px #dbdae3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.eventbrite--card--div--3 {
+  display: flex;
+  flex-direction: row;
+  min-height: 500px;
+  width: 100%;
+  margin-bottom: 32px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.eventbrite--card--div--starting,
+.eventbrite--card--div--price {
+  height: 25%;
+}
+
+.eventbrite--card--div--title {
+  height: 50%;
+}
+
+.eventbrite--card--div--2--button {
+  width: 320px;
+  background-color: #0d8547;
+  color: #fff;
+  font-weight: 600;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 44px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.eventbrite--card--div--3--left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70%;
+  padding-left: 80px;
+  padding-top: 50px;
+  padding-bottom: 16px;
+  padding-right: 140px;
+  background-color: white;
+}
+
+.eventbrite--card--div--3--right {
+  width: 32%;
+  background-color: white;
+  padding-top: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.eventbrite--card--div--3--title {
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #39364f;
+}
+
+.eventbrite--card--h2 {
+  font-size: 1.125rem;
+  color: #39364f;
+}
+
+.eventbrite--card--p1,
+.eventbrite--card--p2,
+.eventbrite--card--p3,
+.eventbrite--card--p4 {
+  color: #6f7287;
+  font-size: 16px;
+}
+
+.eventbrite--card--div--3--right--h3 {
+  color: #1e0a3c;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.eventbrite--card--div--3--right--p {
+  color: #39364f;
+}
+
+.eventbrite--card--div--3--div {
+  height: 25%;
+}
+
+.eventbrite--card--div--3--space {
+  height: 50%;
+}
+
+.eventbrite--card--img--small {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 4px;
+}
+
+.eventbrite--card--div--title {
+  color: #1e0a3c;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.eventbrite--nav--notlinks {
+  display: flex;
+  flex-direction: row;
+}
+
+/* body {
+    font-family: "Roboto", sans-serif;
+    background-color: #39364f;
+  } */
+
+.eventbrite--tickets {
+  margin: 0 auto;
+  width: 1000px;
+  min-height: 90%;
+  background-color: white;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 20%;
+}
+
+.eventbrite--tickets--left {
+  width: 65%;
+}
+
+.eventbrite--tickets--right {
+  width: 35%;
+  background-color: #eeedf2;
+}
+
+.eventbrite--tickets--left--title,
+.eventbrite--tickets--left--button {
+  height: 15%;
+}
+
+.eventbrite--tickets--left--tickets {
+  height: 70%;
+  border-bottom: solid 1px #dbdae3;
+}
+
+.eventbrite--tickets--right--title,
+.eventbrite--tickets--right--tickets {
+  height: 25%;
+}
+
+.eventbrite--tickets--right--total {
+  height: 50%;
+  background-color: #eeedf2;
+}
+
+.tickets--img {
+  height: 100%;
+  width: 100%;
+}
+
+.tickets--title {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #39364f;
+}
+
+.tickets--dates {
+  color: #6f7287;
+  font-size: 0.75rem;
+}
+
+.eventbrite--tickets--left--title {
+  padding-top: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: solid 1px #dbdae3;
+}
+
+.eventbrite--tickets--left--tickets {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.tickets--2,
+.tickets--1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tickets--input {
+  font-size: 14px;
+  padding: 12px 14px;
+  min-height: 22px;
+  border: none;
+  color: #39364f;
+  width: 81px;
+  border: solid 1px #dbdae3;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+.tickets--entradas {
+  font-size: 1.5rem;
+}
+
+.tickets--choose--price {
+  margin-top: 8px;
+}
+
+.eventbrite--tickets--left--button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+.tickets--buy--button {
+  color: white;
+  border-radius: 4px;
+  height: 44px;
+  width: 120px;
+  background-color: orangered;
+  border: 2px solid transparent;
+}
+
+.tickets--resumen {
+  color: rgb(30, 10, 60);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.tickets--final--total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.eventbrite--tickets--right--tickets {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-bottom: solid 1px #dbdae3;
+}
+
+.tickets--title--resumen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.eventbrite--section--3-titles--2 {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.tickets--link--home {
+  padding-left: 50px;
+}
+
+.navbar--show {
+  background-color: white;
+}
